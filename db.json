@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Fender Telecaster Guitar",
+            "price": 250
+        },
+        {
+            "id": 2,
+            "name": "Casio Digital Piano",
+            "price": 420
+        },
+        {
+            "id": 3,
+            "name": "Gibson SG Electro-acoustic Guitar",
+            "price": 220
+        }
+    ],
+    "cart": [{}]
+}
