@@ -14,6 +14,8 @@ export default function reducer(state = initialState, action) {
       return "";
     case ADD_TO_CART:
       return "";
+    default:
+      return state;
   }
 }
 

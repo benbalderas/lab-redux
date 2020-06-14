@@ -36,7 +36,7 @@ export const getProductsSuccess = (payload) => ({
 });
 
 export const getProductsError = (error) => ({
-  type: GET_TODOS_ERROR,
+  type: GET_PRODUCTS_ERROR,
   error,
 });
 
