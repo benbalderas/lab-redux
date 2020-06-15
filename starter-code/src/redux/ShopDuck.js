@@ -1,13 +1,12 @@
 import axios from "axios";
 
 // Actions
-const GET_PRODUCTS_SUCCESS = "ironstore/store/GET_PRODUCTS_SUCCESS";
-const GET_PRODUCTS_ERROR = "ironstore/store/GET_PRODUCTS_ERROR";
+const GET_PRODUCTS_SUCCESS = "ironstore/products/GET_PRODUCTS_SUCCESS";
+const GET_PRODUCTS_ERROR = "ironstore/products/GET_PRODUCTS_ERROR";
 
 // Initial state
 const initialState = {
-  loading: false,
-  results: {},
+  results: [],
   error: undefined,
 };
 
