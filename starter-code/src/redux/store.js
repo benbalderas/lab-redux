@@ -5,7 +5,7 @@ import cart from "./CartDuck";
 
 const rootReducer = combineReducers({
   products,
-  // cart,
+  cart,
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

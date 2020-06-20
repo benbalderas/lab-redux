@@ -1,13 +1,18 @@
 import React from "react";
 import "./App.css";
-import ProductGrid from "./components/ProductGrid";
+import { withRouter } from "react-router";
+import Routes from "./Routes";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
-      <ProductGrid />
+      <Nav />
+      <Routes />
     </div>
   );
 }
 
-export default App;
+const AppWithRouter = withRouter(App);
+
+export default AppWithRouter;

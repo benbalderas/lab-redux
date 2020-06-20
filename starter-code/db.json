@@ -1,19 +1,19 @@
 {
     "products": [{
             "id": 1,
-            "image": "https://source.unsplash.com/71k2FbrLMjA/800x600",
+            "image": "https://source.unsplash.com/71k2FbrLMjA/800x448",
             "name": "Fender Telecaster Guitar",
             "price": 250
         },
         {
             "id": 2,
-            "image": "https://source.unsplash.com/AhRygnKYHv8/800x600",
+            "image": "https://source.unsplash.com/AhRygnKYHv8/800x448",
             "name": "Casio Digital Piano",
             "price": 420
         },
         {
             "id": 3,
-            "image": "https://source.unsplash.com/hUHzaiAHuUc/800x600",
+            "image": "https://source.unsplash.com/hUHzaiAHuUc/800x448",
             "name": "Gibson Electro-acoustic Guitar",
             "price": 220
         }

@@ -6,7 +6,6 @@ import { getProducts } from "../../redux/ShopDuck";
 
 export default function ProductGrid() {
   const products = useSelector((state) => state.products.results);
-  console.log(products);
   const dispatch = useDispatch();
 
   useEffect(() => {
